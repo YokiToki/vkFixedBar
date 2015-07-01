@@ -9,4 +9,5 @@ Simple user style for vk.com
 
  **Changelog:**
 
+> - v0.0.2 - Fixed hiding the logo, if the language is set to English, IM fixes (Jun 11, 2014)
 > - v0.0.1 - First release (Feb 12, 2013)

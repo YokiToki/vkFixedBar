@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-/* vkFixedBar 0.0.1 by Stanislav Tamat */
+/* vkFixedBar 0.0.2 by Stanislav Tamat */
 /* contacts: vk.com/u000001 and tamat at myttk.ru */
 @-moz-document domain("vk.com") {
     #page_header .back {
@@ -63,4 +63,34 @@
     #pg_fixed {
         top: 45px !important;
     }
+    
+    /* IM */
+    
+    .fc_tab {
+        background: none repeat scroll 0 0 rgba(222, 229, 235, 0.75) !important;
+        border: 2px solid #A5B5C7;
+    }
+
+    .fc_tab_title {
+        color: #2B587A !important;
+        text-shadow: 0 1px 0 #A5B5C7 !important;
+    }
+
+    .fc_tab_log {
+        box-shadow: 0 0 3px #2B587A inset !important;
+    }
+
+    div.fc_tab_txt {
+        box-shadow: 0 0 3px #2B587A inset !important;
+    }
+
+    .fc_scrollbar_inner {
+        background: none repeat scroll 0 0 #2B587A !important;
+    }
+
+    .fc_tab_close_wrap, .fc_tab_min_wrap, .fc_tab_max_wrap {
+        background: none repeat scroll 0 0 #2B587A !important;
+        box-shadow: 0 0 2px #A5B5C7 !important;
+    }
+
 }
