@@ -1,7 +1,7 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
-/* vkFixedBar 0.0.2 by Stanislav Tamat */
-/* contacts: vk.com/u000001 and tamat at myttk.ru */
+/* 
+ * vkFixedBar 0.0.3 by Stanislav Tamat
+ * contacts: vk.com/stanislavtamat and tamat at myttk.ru
+ */
 @-moz-document domain("vk.com") {
     #page_header .back {
         background: #4E729A !important;
