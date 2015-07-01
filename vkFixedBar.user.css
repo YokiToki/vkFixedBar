@@ -1,0 +1,66 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/* vkFixedBar 0.0.1 by Stanislav Tamat */
+/* contacts: vk.com/u000001 and tamat at myttk.ru */
+@-moz-document domain("vk.com") {
+    #page_header .back {
+        background: #4E729A !important;
+        position: fixed !important;
+        left: 0;
+        z-index: 110;
+    }
+
+    #page_header .left {
+        background: url("https://m.vk.com/images/vkn_logo.png") no-repeat scroll 16px 9px transparent !important;
+        position: fixed !important;
+        z-index: 110;
+    }
+
+    #page_header .right {
+        background: #4E729A !important;
+        position: fixed !important;
+    }
+
+    #page_header .content {
+        left: 0;
+        position: fixed !important;
+    }
+    
+    #top_logo_down {
+        background: url("https://m.vk.com/images/vkn_logo.png") no-repeat scroll 16px 9px transparent !important;
+        margin-left: 0 !important;
+    }
+
+    .top_home_link {
+        position: fixed !important;
+        left: 0;
+    }
+
+    #side_bar, #pad_wrap {
+        position: fixed !important;
+        margin-top: 0 !important;
+    }
+    
+    #stl_side, #pad_arrow, #gp {
+        display: none !important;
+    }
+    
+    #pad_wrap {
+        z-index: 800 !important;
+        top: 7px !important
+    }
+    
+    #pad_wrap[style*="top: 46px"] {
+        right: 6px !important;
+        left: auto !important;
+        top: 46px !important;
+    }
+    
+    #stl_text {
+        margin-top: 52px !important;
+    }
+    
+    #pg_fixed {
+        top: 45px !important;
+    }
+}
